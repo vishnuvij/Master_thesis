@@ -16,7 +16,7 @@ speciation event are likely to have similar functions (Altenhoff et al., 2012; R
 2014). It is for this reason that the presence of orthologs to an already functionally annotated
 gene serves as a proxy for the presence of the corresponding function (CozzeQo and Jones,
 2017; Huerta-Cepas et al., 2017). One key step in tracing functions across species and through
-time is therefore to determine the presence absence paQern of orthologs across large
+time is therefore to determine the presence absence pattern of orthologs across large
 collections of phylogenetically diverse species, i.e. the generation of phylogenetic profiles
 (Date and Peregrín-Alvarez, 2008; Pellegrini, 2012; Tabach et al., 2013).
 
