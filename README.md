@@ -71,44 +71,36 @@ February 2024.
 
 ## References
 1.Altenhoff,A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms,
-ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
-
+ ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
 2.Altenhoff,A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be
-Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol.,
-8, e1002514.
-    
-3.BaQenberg,K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with
-low computational requirement. BMC Bioinforma;cs, 18, 310.
-    
+  Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol.,
+  8, e1002514.
+3.Battenberg,K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with
+  low computational requirement. BMC Bioinforma;cs, 18, 310.
 4.CozzeQo,D. and Jones,D.T. (2017) Computational Methods for Annotation Transfers from
-Sequence. In, Dessimoz,C. and Škunca,N. (eds), The Gene Ontology Handbook,
-Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
-
+  Sequence. In, Dessimoz,C. and Škunca,N. (eds), The Gene Ontology Handbook,
+  Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
 5.Date,S.V. and Peregrín-Alvarez,J.M. (2008) Phylogenetic profiling. Methods Mol. Biol., 453,
-201–21ti.
-
+  201–216.
 6.Fuentes,D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide
-catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D10ti2–D10ti8.
-
+  catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068.
 7.Gabaldón,T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome
-Biol., 9, 235.
-
+  Biol., 9, 235.
 8.Huerta-Cepas,J. et al. (2017) Fast Genome-Wide Functional Annotation through Orthology
-Assignment by eggNOG-Mapper. Mol. Biol. Evol., 34, 2115–2122.
-
+  Assignment by eggNOG-Mapper. Mol. Biol. Evol., 34, 2115–2122.
 9.Jahangiri-Tazehkand,S. et al. (2017) OrthoGNC: A Sonware for Accurate Identification of
-Orthologs Based on Gene Neighborhood Conservation. Genomics Proteomics
-Bioinforma;cs, 15, 3ti1–370.
-Kristensen,D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief.
-Bioinform., 12, 379–391.
-Lafond,M. et al. (2018) Accurate prediction of orthologs in the presence of divergence aner
-duplication. Bioinforma;cs, 34, i3titi–i375.
-Nevers,Y. et al. (2022) The Quest for Orthologs orthology benchmark service in 2022. Nucleic
-Acids Res., 50, Wti23–Wti32.
-Nichio,B.T.L. et al. (2017) New Tools in Orthology Analysis: A Brief Review of Promising
-Perspectives. Front. Genet., 0.
-Pellegrini,M. (2012) Using phylogenetic profiles to predict functional relationships. Methods
-Mol. Biol. CliHon NJ, 804, 1ti7–77.
+  Orthologs Based on Gene Neighborhood Conservation. Genomics Proteomics
+  Bioinforma;cs, 15, 361–370.
+10.Kristensen,D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief.
+  Bioinform., 12, 379–391.
+11.Lafond,M. et al. (2018) Accurate prediction of orthologs in the presence of divergence aner
+  duplication. Bioinforma;cs, 34, i3titi–i375.
+12.Nevers,Y. et al. (2022) The Quest for Orthologs orthology benchmark service in 2022. Nucleic
+  Acids Res., 50, W623–W632.
+13.Nichio,B.T.L. et al. (2017) New Tools in Orthology Analysis: A Brief Review of Promising
+  Perspectives. Front. Genet., 0.
+14.Pellegrini,M. (2012) Using phylogenetic profiles to predict functional relationships. Methods
+   Mol. Biol. CliHon NJ, 804, 167–77.
 Pereira,C. et al. (2014) A meta-approach for improving the prediction and the functional
 annotation of ortholog groups. BMC Genomics, 15, S1ti.
 Rhie,A. et al. (2021) Towards complete and error-free genome assemblies of all vertebrate
