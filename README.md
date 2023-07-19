@@ -70,9 +70,9 @@ The master thesis will be done in ti months approximately, starting from July 20
 February 2024.
 
 ## References
-Altenhoff,A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms,
+1.Altenhoff,A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms,
 ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
-Altenhoff,A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be
+2.Altenhoff,A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be
 Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol.,
 8, e1002514.
 BaQenberg,K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with
