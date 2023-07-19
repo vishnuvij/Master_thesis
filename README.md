@@ -2,7 +2,7 @@
 
 Master Thesis Proposal
 
-Author - Vishnu Vijayan (0080ti007)
+Author - Vishnu Vijayan (00806007)
 
 
 ## Background
