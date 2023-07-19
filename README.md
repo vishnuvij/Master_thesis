@@ -70,25 +70,33 @@ The master thesis will be done in ti months approximately, starting from July 20
 February 2024.
 
 ## References
-    Altenhoff,A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms,
+1.Altenhoff,A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms,
 ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
-    Altenhoff,A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be
+
+2.Altenhoff,A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be
 Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol.,
 8, e1002514.
-    BaQenberg,K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with
+    
+3.BaQenberg,K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with
 low computational requirement. BMC Bioinforma;cs, 18, 310.
-    CozzeQo,D. and Jones,D.T. (2017) Computational Methods for Annotation Transfers from
+    
+4.CozzeQo,D. and Jones,D.T. (2017) Computational Methods for Annotation Transfers from
 Sequence. In, Dessimoz,C. and Škunca,N. (eds), The Gene Ontology Handbook,
-Methods in Molecular Biology. Springer, New York, NY, pp. 55–ti7.
-Date,S.V. and Peregrín-Alvarez,J.M. (2008) Phylogenetic profiling. Methods Mol. Biol., 453,
+Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
+
+5.Date,S.V. and Peregrín-Alvarez,J.M. (2008) Phylogenetic profiling. Methods Mol. Biol., 453,
 201–21ti.
-Fuentes,D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide
+
+6.Fuentes,D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide
 catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D10ti2–D10ti8.
-Gabaldón,T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome
+
+7.Gabaldón,T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome
 Biol., 9, 235.
-Huerta-Cepas,J. et al. (2017) Fast Genome-Wide Functional Annotation through Orthology
+
+8.Huerta-Cepas,J. et al. (2017) Fast Genome-Wide Functional Annotation through Orthology
 Assignment by eggNOG-Mapper. Mol. Biol. Evol., 34, 2115–2122.
-Jahangiri-Tazehkand,S. et al. (2017) OrthoGNC: A Sonware for Accurate Identification of
+
+9.Jahangiri-Tazehkand,S. et al. (2017) OrthoGNC: A Sonware for Accurate Identification of
 Orthologs Based on Gene Neighborhood Conservation. Genomics Proteomics
 Bioinforma;cs, 15, 3ti1–370.
 Kristensen,D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief.
