@@ -14,7 +14,7 @@ characterized (Schatz, 2015; Rhie et al., 2021). It is generally assumed that or
 i.e. evolutionarily related genes in different species whose lineages were separated by a
 speciation event are likely to have similar functions (Altenhoff et al., 2012; Rogozin et al.,
 2014). It is for this reason that the presence of orthologs to an already functionally annotated
-gene serves as a proxy for the presence of the corresponding function (CozzeQo and Jones,
+gene serves as a proxy for the presence of the corresponding function (Cozzetto and Jones,
 2017; Huerta-Cepas et al., 2017). One key step in tracing functions across species and through
 time is therefore to determine the presence absence pattern of orthologs across large
 collections of phylogenetically diverse species, i.e. the generation of phylogenetic profiles
@@ -25,15 +25,15 @@ The accuracy of functional annotation heavily relies on the quality of ortholog 
 improve the performance of the ortholog inference (Pereira et al., 2014; Nichio et al., 2017).
 These strategies encompass improving the specificity of sequence similarity searches and
 incorporating evolutionary relationships via phylogenetic trees (Yang and Smith, 2014;
-BaQenberg et al., 2017; Jahangiri-Tazehkand et al., 2017; Lafond et al., 2018). The latter
+Battenberg et al., 2017; Jahangiri-Tazehkand et al., 2017; Lafond et al., 2018). The latter
 method has demonstrated high accuracy, albeit it comes along with a substantial
 computational effort which limits its use in contemporary data sets that easily encompass
 thousands of species and sequences (Gabaldón, 2008; Kristensen et al., 2011). Likewise, the
 accuracy of trees computed from a single gene is a limiting factor. Phylogenetic profiles, in
 turn, can be rapidly generated, and they also reveal evolutionary relationships among
-represented species. Abnormal paQerns observed within phylogenetic profiles can potentially
+represented species. Abnormal patterns observed within phylogenetic profiles can potentially
 indicate interesting evolutionary signals within specific taxonomic clades. Alternatively, such
-paQerns may arise from spurious ortholog assignments, rendering them artifacts. Currently,
+patterns may arise from spurious ortholog assignments, rendering them artifacts. Currently,
 it lacks approaches that leverage information extracted from phylogenetic profiles for the
 assessment of orthology predictions. The aim of this project is to develop a machine learning
 based approach that utilizes phylogenetic profiles to effectively identify erroneous ortholog
@@ -45,7 +45,7 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 on neural networks will be devised and implemented. The aim is to identify and eliminate
 false positive orthology assignments from phylogenetic profiles, either due to a low specificity
 of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the
-presence/absence paQern of orthology assignments across the tree of life, changes in the
+presence/absence pattern of orthology assignments across the tree of life, changes in the
 orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
 orthologs were detected in. Optionally, we plan to integrate the conservation of gene order
 on a local scale into the prediction. To train the models, simulated phylogenetic profiles will
@@ -75,7 +75,7 @@ February 2024.
 
 2. Altenhoff, A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol., 8, e1002514.
 
-3. BaQenberg, K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with low computational requirement. BMC Bioinformatics, 18, 310.
+3. Battenberg, K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with low computational requirement. BMC Bioinformatics, 18, 310.
 
 4. Cozzetto, D. and Jones, D.T. (2017) Computational Methods for Annotation Transfers from Sequence. In, Dessimoz, C. and Škunca, N. (eds), The Gene Ontology Handbook, Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
 
