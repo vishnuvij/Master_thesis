@@ -66,7 +66,7 @@ compared with the assessments provided by the Quest for Ortholog benchmarking se
 (Nevers et al., 2022).
 
 ## Time Plan
-The master thesis will be done in ti months approximately, starting from July 2023 to
+The master thesis will be done in 6 months approximately, starting from July 2023 to
 February 2024.
 
 ## References
