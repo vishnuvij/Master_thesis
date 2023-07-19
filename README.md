@@ -25,7 +25,7 @@ The accuracy of functional annotation heavily relies on the quality of ortholog 
 improve the performance of the ortholog inference (Pereira et al., 2014; Nichio et al., 2017).
 These strategies encompass improving the specificity of sequence similarity searches and
 incorporating evolutionary relationships via phylogenetic trees (Yang and Smith, 2014;
-BaQenberg et al., 2017; Jahangiri-Tazehkand et al., 2017; Lafond et al., 2018). The laQer
+BaQenberg et al., 2017; Jahangiri-Tazehkand et al., 2017; Lafond et al., 2018). The latter
 method has demonstrated high accuracy, albeit it comes along with a substantial
 computational effort which limits its use in contemporary data sets that easily encompass
 thousands of species and sequences (Gabaldón, 2008; Kristensen et al., 2011). Likewise, the
