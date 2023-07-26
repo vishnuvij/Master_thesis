@@ -66,20 +66,21 @@ compared with the assessments provided by the Quest for Ortholog benchmarking se
 (Nevers et al., 2022).
 
 ## Time Plan
-The master thesis will be done in 6 months approximately, starting from September 2023 to
-February 2024.
+The master thesis will be done in 6 months approximately, starting from August 2023 to
+January 2024.
 
 | Month    | Intended work |
 | -------- | ------- |
-| 09.2023 | Studying related literatures; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
-| 10.2023 | Collecting and processing data; designing model |
-| 11 - 12.2023 | Training and optimizing model |
-| 01.2024 | Benchmarking the approach; start writing the thesis |
-| 02.2024 | Thesis writing |
+| 08.2023 | Studying related literatures; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
+| 09.2023 | Collecting and processing data; designing model |
+| 10 - 11.2023 | Training and optimizing model |
+| 12.2024 | Benchmarking the approach; start writing the thesis |
+| 01.2024 | Thesis writing |
 
 ## References
 
 1. Altenhoff, A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms, ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
+https://doi.org/10.1093/nar/gkaa1007
 
 2. Altenhoff, A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol., 8, e1002514.
 
