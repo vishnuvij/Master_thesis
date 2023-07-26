@@ -82,7 +82,7 @@ January 2024.
 1. Altenhoff, A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms, ancestral gene order and more. Nucleic Acids Res., 49, D373–D379.
 https://doi.org/10.1093/nar/gkaa1007
 
-2. Altenhoff, A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol., 8, e1002514.
+2. Altenhoff, A.M. et al. (2012) Resolving the Ortholog Conjecture: Orthologs Tend to Be Weakly, but Significantly, More Similar in Function than Paralogs. PLoS Comput. Biol., 8, e1002514.https://doi.org/10.1371/journal.pcbi.1002514
 
 3. Battenberg, K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with low computational requirement. BMC Bioinformatics, 18, 310.
 
