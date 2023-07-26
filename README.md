@@ -66,8 +66,16 @@ compared with the assessments provided by the Quest for Ortholog benchmarking se
 (Nevers et al., 2022).
 
 ## Time Plan
-The master thesis will be done in 6 months approximately, starting from July 2023 to
+The master thesis will be done in 6 months approximately, starting from September 2023 to
 February 2024.
+
+| Month    | Intended work |
+| -------- | ------- |
+| 09.2023 | Studying related literatures; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
+| 10.2023 | Collecting and processing data; designing model |
+| 11 - 12.2023 | Training and optimizing model |
+| 01.2024 | Benchmarking the approach; start writing the thesis |
+| 02.2024 | Thesis writing |
 
 ## References
 
