@@ -5,7 +5,7 @@ Master Thesis Proposal
 Author - Vishnu Vijayan (00806007)
 
 
-## Background
+## Problem Introduction
 The functional annotation of protein coding genes is crucial for investigating similarities but
 also differences between related organisms. In the era of biodiversity genomics, an automated
 transfer of functional annotations has increased in relevance because genomes of species are
@@ -35,17 +35,18 @@ represented species. Abnormal patterns observed within phylogenetic profiles can
 indicate interesting evolutionary signals within specific taxonomic clades. Alternatively, such
 patterns may arise from spurious ortholog assignments, rendering them artifacts. Currently,
 it lacks approaches that leverage information extracted from phylogenetic profiles for the
-assessment of orthology predictions. The aim of this project is to develop a machine learning
-based approach that utilizes phylogenetic profiles to effectively identify erroneous ortholog
-assignments.
+assessment of orthology predictions. 
 
+## Research Question
+The aim of this project is to develop a machine learning
+based approach that utilizes phylogenetic profiles to effectively identify erroneous ortholog
+assignments. Can the fasle positive orthology assinments in phylogenetic profiles be identified using neural networks ?
 ## Method
 
 In this study, a novel approach for assessing the accuracy of the orthology prediction based
 on neural networks will be devised and implemented. The aim is to identify and eliminate
 false positive orthology assignments from phylogenetic profiles, either due to a low specificity
-of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the
-presence/absence pattern of orthology assignments across the tree of life, changes in the
+of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
 orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
 orthologs were detected in. Optionally, we plan to integrate the conservation of gene order
 on a local scale into the prediction. To train the models, simulated phylogenetic profiles will
