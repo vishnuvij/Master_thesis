@@ -40,7 +40,8 @@ assessment of orthology predictions.
 ## Research Question
 The aim of this project is to develop a machine learning
 based approach that utilizes phylogenetic profiles to effectively identify erroneous ortholog
-assignments. Can the fasle positive orthology assinments in phylogenetic profiles be identified using neural networks ?
+assignments. Is it possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks?
+
 ## Method
 
 In this study, a novel approach for assessing the accuracy of the orthology prediction based
@@ -64,7 +65,11 @@ Multiple datasets comprising the phylogenetic profiles of diverse model organism
 human, frog, mouse, among others, across a wide array of species throughout the tree of life
 will be used to validate the performance of the model. The results of this approach will be
 compared with the assessments provided by the Quest for Ortholog benchmarking service
-(Nevers et al., 2022).
+(Nevers et al., 2022). 
+
+## Research Goal
+The research goal it to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species.
+This work would also help researchers avoid misleading interpretations of gene functions and evolutionary histories. 
 
 ## Time Plan
 The master thesis will be done in 6 months approximately, starting from August 2023 to
