@@ -86,8 +86,9 @@ https://doi.org/10.1093/nar/gkaa1007
 
 3. Battenberg, K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with low computational requirement. BMC Bioinformatics, 18, 310.
 https://doi.org/10.1186/s12859-017-1726-5
-4. Cozzetto, D. and Jones, D.T. (2017) Computational Methods for Annotation Transfers from Sequence. In, Dessimoz, C. and Škunca, N. (eds), The Gene Ontology Handbook, Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.10.1007/978-1-4939-3743-1_5
 
+4. Cozzetto, D. and Jones, D.T. (2017) Computational Methods for Annotation Transfers from Sequence. In, Dessimoz, C. and Škunca, N. (eds), The Gene Ontology Handbook, Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
+10.1007/978-1-4939-3743-1_5
 5. Date, S.V. and Peregrín-Alvarez, J.M. (2008) Phylogenetic profiling. Methods Mol. Biol., 453, 201–216.https://doi.org/10.1007/978-1-60327-429-6_9
 
 6. Fuentes, D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068.https://doi.org/10.1093/nar/gkab966
