@@ -112,18 +112,18 @@ https://doi.org/10.1093/molbev/msx148
 
 15. Pereira, C. et al. (2014) A meta-approach for improving the prediction and the functional annotation of ortholog groups. BMC Genomics, 15, S16. https://doi.org/10.1186/1471-2164-15-S6-S16
 
-16. Rhie, A. et al. (2021) Towards complete and error-free genome assemblies of all vertebrate species. Nature, 592, 737–746.
+16. Rhie, A. et al. (2021) Towards complete and error-free genome assemblies of all vertebrate species. Nature, 592, 737–746. https://doi.org/10.1038/s41586-021-03451-0
 
-17. Rogozin, I.B. et al. (2014) Gene Family Level Comparative Analysis of Gene Expression in Mammals Validates the Ortholog Conjecture. Genome Biol. Evol., 6, 754–762.
+17. Rogozin, I.B. et al. (2014) Gene Family Level Comparative Analysis of Gene Expression in Mammals Validates the Ortholog Conjecture. Genome Biol. Evol., 6, 754–762. https://doi.org/10.1093/gbe/evu051
 
-18. Salichos, L. and Rokas, A. (2011) Evaluating Ortholog Prediction Algorithms in a Yeast Model Clade. PLOS ONE, 6, e18755.
+18. Salichos, L. and Rokas, A. (2011) Evaluating Ortholog Prediction Algorithms in a Yeast Model Clade. PLOS ONE, 6, e18755.  https://doi.org/10.1371/journal.pone.0018755
 
-19. Schatz, M.C. (2015) Biological data sciences in genome research. Genome Res., 25, 1417–1422.
+19. Schatz, M.C. (2015) Biological data sciences in genome research. Genome Res., 25, 1417–1422. https://doi.org/10.1101/gr.191684.115
 
-20. Tabach, Y. et al. (2013) Identification of small RNA pathway genes using patterns of phylogenetic conservation and divergence. Nature, 493, 694–698.
+20. Tabach, Y. et al. (2013) Identification of small RNA pathway genes using patterns of phylogenetic conservation and divergence. Nature, 493, 694–698. https://doi.org/10.1038/nature11779
 
-21. Thomas, P.D. et al. (2022) PANTHER: Making genome-scale phylogenetics accessible to all. Protein Sci., 31, 8–22.
+21. Thomas, P.D. et al. (2022) PANTHER: Making genome-scale phylogenetics accessible to all. Protein Sci., 31, 8–22.  https://doi.org/10.1002/pro.4218
 
-22. Trachana, K. et al. (2011) Orthology prediction methods: a quality assessment using curated protein families. BioEssays News Rev. Mol. Cell. Dev. Biol., 33, 769–80.
+22. Trachana, K. et al. (2011) Orthology prediction methods: a quality assessment using curated protein families. BioEssays News Rev. Mol. Cell. Dev. Biol., 33, 769–80. https://doi.org/10.1002/bies.201100062
 
-23. Yang, Y. and Smith, S.A. (2014) Orthology Inference in Nonmodel Organisms Using Transcriptomes and Low-Coverage Genomes: Improving Accuracy and Matrix Occupancy for Phylogenomics. Mol. Biol. Evol., 31, 3081–3092.
+23. Yang, Y. and Smith, S.A. (2014) Orthology Inference in Nonmodel Organisms Using Transcriptomes and Low-Coverage Genomes: Improving Accuracy and Matrix Occupancy for Phylogenomics. Mol. Biol. Evol., 31, 3081–3092. https://doi.org/10.1093/molbev/msu245
