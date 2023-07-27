@@ -87,17 +87,17 @@ https://doi.org/10.1093/nar/gkaa1007
 3. Battenberg, K. et al. (2017) OrthoReD: a rapid and accurate orthology prediction tool with low computational requirement. BMC Bioinformatics, 18, 310.
 https://doi.org/10.1186/s12859-017-1726-5
 
-4. Cozzetto, D. and Jones, D.T. (2017) Computational Methods for Annotation Transfers from Sequence. In, Dessimoz, C. and Škunca, N. (eds), The Gene Ontology Handbook, Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.
-10.1007/978-1-4939-3743-1_5
+4. Cozzetto, D. and Jones, D.T. (2017) Computational Methods for Annotation Transfers from Sequence. In, Dessimoz, C. and Škunca, N. (eds), The Gene Ontology Handbook, Methods in Molecular Biology. Springer, New York, NY, pp. 55–67.https://link.springer.com/protocol/10.1007/978-1-4939-3743-1_5
+
 5. Date, S.V. and Peregrín-Alvarez, J.M. (2008) Phylogenetic profiling. Methods Mol. Biol., 453, 201–216.https://doi.org/10.1007/978-1-60327-429-6_9
 
 6. Fuentes, D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068.https://doi.org/10.1093/nar/gkab966
 
-7. Gabaldón, T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome Biol., 9, 235.
+7. Gabaldón, T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome Biol., 9, 235.https://doi.org/10.1186/gb-2008-9-10-235
 
-8. Huerta-Cepas, J. et al. (2017) Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper. Mol. Biol. Evol., 34, 2115–2122.
+8. Huerta-Cepas, J. et al. (2017) Fast Genome-Wide Functional Annotation through Orthology Assignment by eggNOG-Mapper. Mol. Biol. Evol., 34, 2115–2122.10.1093/molbev/msx148
 
-9. Jahangiri-Tazehkand, S. et al. (2017) OrthoGNC: A Software for Accurate Identification of Orthologs Based on Gene Neighborhood Conservation. Genomics Proteomics Bioinformatics, 15, 361–370.
+9. Jahangiri-Tazehkand, S. et al. (2017) OrthoGNC: A Software for Accurate Identification of Orthologs Based on Gene Neighborhood Conservation. Genomics Proteomics Bioinformatics, 15, 361–370.10.1016/j.gpb.2017.07.002
 
 10. Kristensen, D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief. Bioinform., 12, 379–391.
 
