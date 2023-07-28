@@ -61,9 +61,9 @@ on a local scale into the prediction.
 4. Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
 
 5. Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
+6. The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research.
 
 
-The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization.The Goethe University also offers a dedicated data server to manage and storing large-scale research datasets securely.It will serve as the primary repository for the numerous datasets generated and collected during this research.
 
 ## Research Goal
 The research goal it to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species.
