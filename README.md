@@ -50,22 +50,21 @@ false positive orthology assignments from phylogenetic profiles, either due to a
 of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
 orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
 orthologs were detected in. Optionally, we plan to integrate the conservation of gene order
-on a local scale into the prediction. To train the models, simulated phylogenetic profiles will
-be generated, encompassing varying degrees of information, ranging from gene families,
-metabolic pathways to complete gene sets. The ortholog assessments within these profiles
-will be labeled as true positive, false positive, true negative, or false negative using evidence
-from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB
-(Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021). These presence/absence vectors
-will be complemented with additional information such as protein architecture similarity to
-serve as input for the neural network model. The model will generate an output vector with
-scores assigned to each position, indicating the potential assessment for the orthology
-prediction.
+on a local scale into the prediction. 
 
-Multiple datasets comprising the phylogenetic profiles of diverse model organisms, including
-human, frog, mouse, among others, across a wide array of species throughout the tree of life
-will be used to validate the performance of the model. The results of this approach will be
-compared with the assessments provided by the Quest for Ortholog benchmarking service
-(Nevers et al., 2022).
+·       Generate simulated phylogenetic profiles encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
+
+·       Use the evidence from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB (Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021) to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative.
+
+·       These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
+
+·       The model will generate an output vector with scores assigned to each position, indicating the potential assessment for the orthology prediction.
+
+·       Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
+
+·       Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
+
+
 
 The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization.The Goethe University also offers a dedicated data server to manage and storing large-scale research datasets securely.It will serve as the primary repository for the numerous datasets generated and collected during this research.
 
