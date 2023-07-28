@@ -49,7 +49,7 @@ on neural networks will be devised and implemented. The aim is to identify and e
 false positive orthology assignments from phylogenetic profiles, either due to a low specificity
 of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
 orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
-orthologs were detected in. Optionally, we plan to integrate the conservation of gene order
+orthologs were detected in. Optionally, I plan to integrate the conservation of gene order
 on a local scale into the prediction. 
 
 1. Generate simulated phylogenetic profiles encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
