@@ -52,18 +52,17 @@ orthologs’ feature architectures, as well as the evolutionary relationships of
 orthologs were detected in. Optionally, we plan to integrate the conservation of gene order
 on a local scale into the prediction. 
 
-·       Generate simulated phylogenetic profiles encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
+1. Generate simulated phylogenetic profiles encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
 
-·       Use the evidence from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB (Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021) to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative.
+2. Use the evidence from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB (Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021) to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative.
 
-·       These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
+3. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
 
-·       The model will generate an output vector with scores assigned to each position, indicating the potential assessment for the orthology prediction.
+4. The model will generate an output vector with scores assigned to each position, indicating the potential assessment for the orthology prediction.
 
-·       Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
+5. Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
 
-·       Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
-
+6. Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
 
 
 The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization.The Goethe University also offers a dedicated data server to manage and storing large-scale research datasets securely.It will serve as the primary repository for the numerous datasets generated and collected during this research.
