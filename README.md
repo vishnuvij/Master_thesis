@@ -6,18 +6,7 @@ Author - Vishnu Vijayan (00806007)
 
 
 ## Problem Introduction
-Functional annotation involves assigning specific biological functions or roles to genes, which is essential for investigating both similarities and differences between related organisms. In the era of biodiversity genomics, an automated
-transfer of functional annotations has increased in relevance because genomes of species are
-being sequenced at a rapid pace that are both genetically but also phenotypically only poorly
-characterized (Schatz, 2015; Rhie et al., 2021). It is generally assumed that orthologous genes,
-i.e. evolutionarily related genes in different species whose lineages were separated by a
-speciation event are likely to have similar functions (Altenhoff et al., 2012; Rogozin et al.,
-2014). It is for this reason that the presence of orthologs to an already functionally annotated
-gene serves as a proxy for the presence of the corresponding function (Cozzetto and Jones,
-2017; Huerta-Cepas et al., 2017). One key step in tracing functions across species and through
-time is therefore to determine the presence absence pattern of orthologs across large
-collections of phylogenetically diverse species, i.e. the generation of phylogenetic profiles
-(Date and Peregrín-Alvarez, 2008; Pellegrini, 2012; Tabach et al., 2013).
+Orthologs are genes originating from a shared ancestral gene, found in distinct species due to speciation. Despite evolutionary divergence, these genes usually maintain comparable functions and frequently participate in similar biological processes. Ortholog assignment is the procedure of recognizing such orthologous genes among diverse species. Functional annotation involves assigning specific biological functions or roles to genes, which is essential for investigating both similarities and differences between related organisms. In the era of biodiversity genomics, an automated transfer of functional annotations has increased in relevance because genomes of species which are both genetically and phenotypically poorly characterized, are being sequenced at a rapid pace. (Schatz, 2015; Rhie et al., 2021).  Orthologous genes are genes found in different species that share a common evolutionary origin before a speciation event. It's generally assumed that these orthologous genes perform similar functions (Altenhoff et al., 2012; Rogozin et al., 2014). This is why the existence of orthologs to a gene with a known function is used as an indirect indicator for the presence of the same function (Cozzetto and Jones, 2017; Huerta-Cepas et al., 2017).  One key step in tracing functions over different species and evolutionary periods involves establishing the presence or absence of orthologs across large collection of phylogenetically diverse species, which will entile the generation of phylogenetic profiles (Date and Peregrín-Alvarez, 2008; Pellegrini, 2012; Tabach et al., 2013).
 
 The accuracy of functional annotation heavily relies on the quality of ortholog prediction
 (Salichos and Rokas, 2011; Trachana et al., 2011). Various strategies have been developed to
@@ -43,8 +32,8 @@ The research goal is to enhance the accuracy and reliability of orthology predic
 
 In this study, a novel approach for assessing the accuracy of the orthology prediction based
 on neural networks will be devised and implemented. The aim is to identify and eliminate
-false positive orthology assignments from phylogenetic profiles, either due to a low specificity
-of the ortholog search or due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
+false positive orthology assignments from phylogenetic profiles, either due to i) a low specificity
+of the ortholog search or ii) due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
 orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
 orthologs were detected in. Optionally, I plan to integrate the conservation of gene order
 on a local scale into the prediction. 
