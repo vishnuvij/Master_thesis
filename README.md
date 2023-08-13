@@ -6,8 +6,7 @@ Author - Vishnu Vijayan (00806007)
 
 
 ## Problem Introduction
-The functional annotation of protein coding genes is crucial for investigating similarities but
-also differences between related organisms. In the era of biodiversity genomics, an automated
+Functional annotation involves assigning specific biological functions or roles to genes, which is essential for investigating both similarities and differences between related organisms. In the era of biodiversity genomics, an automated
 transfer of functional annotations has increased in relevance because genomes of species are
 being sequenced at a rapid pace that are both genetically but also phenotypically only poorly
 characterized (Schatz, 2015; Rhie et al., 2021). It is generally assumed that orthologous genes,
@@ -37,10 +36,8 @@ patterns may arise from spurious ortholog assignments, rendering them artifacts.
 it lacks approaches that leverage information extracted from phylogenetic profiles for the
 assessment of orthology predictions. 
 
-## Research Question
-The aim of this project is to develop a machine learning
-based approach that utilizes phylogenetic profiles to effectively identify erroneous ortholog
-assignments. Is it possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks?
+## Research Goal
+The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks? This will help researchers avoid misleading interpretations of gene functions and evolutionary histories.
 
 ## Method
 
@@ -65,9 +62,7 @@ on a local scale into the prediction.
 
 
 
-## Research Goal
-The research goal it to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species.
-This work would also help researchers avoid misleading interpretations of gene functions and evolutionary histories. 
+
 
 ## Time Plan
 The master thesis will be done in 6 months approximately, starting from August 2023 to
@@ -75,7 +70,7 @@ January 2024.
 
 | Month    | Intended work |
 | -------- | ------- |
-| 08.2023 | Studying related literatures; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
+| 08.2023 | Studying related literature; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
 | 09.2023 | Collecting and processing data; designing model |
 | 10 - 11.2023 | Training and optimizing model |
 | 12.2024 | Benchmarking the approach; start writing the thesis |
