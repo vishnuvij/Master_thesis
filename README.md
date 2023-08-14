@@ -42,9 +42,9 @@ on a local scale into the prediction.
 
 2. Use the evidence from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB (Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021) to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
 
-3. The model will generate an output vector with scores assigned to each position, indicating the potential assessment for the orthology prediction.
+3. The model will generate an output vector with scores assigned to each gene in the phylogenetic profile, indicating the potential true or wrong assessment for the orthology prediction.
 
-4. Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
+4. Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life. These datasets were generated from several in-house projects.
 
 5. Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
 6. The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research.
@@ -60,9 +60,9 @@ January 2024.
 | Month    | Intended work |
 | -------- | ------- |
 | 08.2023 | Studying related literature; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
-| 09.2023 | Collecting and processing data; designing model |
+| 09.2023 | Collecting and processing data; designing model; first progress presentation |
 | 10 - 11.2023 | Training and optimizing model |
-| 12.2024 | Benchmarking the approach; start writing the thesis |
+| 12.2024 | Benchmarking the approach; second progress presentation; start writing the thesis |
 | 01.2024 | Thesis writing |
 
 ## References
