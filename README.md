@@ -26,7 +26,9 @@ it lacks approaches that leverage information extracted from phylogenetic profil
 assessment of orthology predictions. 
 
 ## Research Goal
-The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks? This will help researchers avoid misleading interpretations of gene functions and evolutionary histories.
+The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. Phylogenetic profiles integrated with additional information could be a valuable resources for assess the accuracy of ortholog prediction. Protein feature architecture ...<please find info from https://academic.oup.com/bioinformatics/article/39/5/btad226/7135831>. Another additional indicator for true orthologs is the conservation of gene order....<check https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1838432/>.
+
+In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks. This will help researchers avoid misleading interpretations of gene functions and evolutionary histories.
 
 ## Method
 
