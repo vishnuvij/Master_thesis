@@ -6,24 +6,8 @@ Author - Vishnu Vijayan (00806007)
 
 
 ## Problem Introduction
-Orthologs are genes originating from a shared ancestral gene, found in distinct species due to speciation. Despite evolutionary divergence, these genes usually maintain comparable functions and frequently participate in similar biological processes. Ortholog assignment is the procedure of recognizing such orthologous genes among diverse species. Functional annotation involves assigning specific biological functions or roles to genes, which is essential for investigating both similarities and differences between related organisms. In the era of biodiversity genomics, use of computational  methods and algorithms for functional annotations has increased in relevance because genomes of species which are both genetically and phenotypically poorly characterized, are being sequenced at a rapid pace. (Schatz, 2015; Rhie et al., 2021).  Orthologous genes are genes found in different species that share a common evolutionary origin before a speciation event. It's generally assumed that these orthologous genes perform similar functions (Altenhoff et al., 2012; Rogozin et al., 2014). This is why the existence of orthologs to a gene with a known function is used as an indirect indicator for the presence of the same function (Cozzetto and Jones, 2017; Huerta-Cepas et al., 2017).  One key step in tracing functions over different species and evolutionary periods involves establishing the presence or absence of orthologs across large collection of phylogenetically diverse species, which will entile the generation of phylogenetic profiles (Date and Peregrín-Alvarez, 2008; Pellegrini, 2012; Tabach et al., 2013).
 
-The accuracy of functional annotation heavily relies on the quality of ortholog prediction
-(Salichos and Rokas, 2011; Trachana et al., 2011). Various strategies have been developed to
-improve the performance of the ortholog inference (Pereira et al., 2014; Nichio et al., 2017).
-These strategies encompass improving the specificity of sequence similarity searches and
-incorporating evolutionary relationships via phylogenetic trees (Yang and Smith, 2014;
-Battenberg et al., 2017; Jahangiri-Tazehkand et al., 2017; Lafond et al., 2018). The latter
-method has demonstrated high accuracy, albeit it comes along with a substantial
-computational effort which limits its use in contemporary data sets that easily encompass
-thousands of species and sequences (Gabaldón, 2008; Kristensen et al., 2011). Likewise, the
-accuracy of trees computed from a single gene is a limiting factor. Phylogenetic profiles, in
-turn, can be rapidly generated, and they also reveal evolutionary relationships among
-represented species. Abnormal patterns observed within phylogenetic profiles can potentially
-indicate interesting evolutionary signals within specific taxonomic clades. Alternatively, such
-patterns may arise from spurious ortholog assignments, rendering them artifacts. Currently,
-it lacks approaches that leverage information extracted from phylogenetic profiles for the
-assessment of orthology predictions. 
+Orthologous genes are genes found in different species that share a common evolutionary origin before a speciation event. Ortholog assignment is the procedure of recognizing such orthologous genes among diverse species. Functional annotation involves assigning specific biological functions or roles to genes, which is essential for investigating both similarities and differences between related organisms. In the era of biodiversity genomics, use of computational methods and algorithms for functional annotations has an increased relevance. These techniques help to accelerate the sequencing of the genomes of species which are both genetically and phenotypically poorly characterized^{1,2}. An ortholog’s feature architecture refers to the arrangement and combination of various features or annotations such as functional domains, transmembrane domains, low complexity regions or secondary structure elements that are associated with protein sequences3. The gene order is one of the important indicators for orthologs. The significance of gene order conservation has grown in predicting protein function because, as genomes evolve over time, the arrangement of genes is rearranged. This means that maintaining a consistent gene order within a local region reflects the functional limitations associated with the protein4. 
 
 ## Research Goal
 The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks? This will help researchers avoid misleading interpretations of gene functions and evolutionary histories.
