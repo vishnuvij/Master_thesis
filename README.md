@@ -12,32 +12,19 @@ Orthologous genes are genes found in different species that share a common evolu
 It's generally assumed that the orthologous genes perform similar functions[^5^],[^6^]. This is why the existence of orthologs to a gene with a known function is used as an indirect indicator for the presence of the same function[^7^],[^8^]. One key step in tracing functions over different species and evolutionary periods involves establishing the presence or absence of orthologs across large collection of phylogenetically diverse species, which will entile the generation of phylogenetic profiles[^9^],[^10^],[^11^]. The accuracy of functional annotation heavily relies on the quality of ortholog prediction[^12^],[^13^]. Various strategies have been developed to improve the performance of the ortholog inference[^14^],[^15^]. These strategies encompass improving the specificity of sequence similarity searches or incorporating evolutionary relationships via phylogenetic trees[^16^],[^17^],[^18^],[^19^]. The latter method has demonstrated high accuracy, although it comes along with a substantial computational effort which limits its use in contemporary data sets that easily encompass thousands of species and sequences[^20^],[^21^]. Likewise, the accuracy of trees computed from a single gene is a limiting factor. Phylogenetic profiles, in turn, can be rapidly generated, and they also reveal evolutionary relationships among represented species. Abnormal patterns observed within phylogenetic profiles can potentially indicate interesting evolutionary signals within specific taxonomic clades. Alternatively, such patterns may arise from spurious ortholog assignments, rendering them artifacts. Currently, it lacks approaches that leverage information extracted from phylogenetic profiles for the assessment of orthology predictions.
 
 ## Research Goal
-The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks? This will help researchers avoid misleading interpretations of gene functions and evolutionary histories.
+
+The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, we will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks. This will help researchers avoid misleading interpretations of gene functions and evolutionary histories. 
 
 ## Method
 
-In this study, a novel approach for assessing the accuracy of the orthology prediction based
-on neural networks will be devised and implemented. The aim is to identify and eliminate
-false positive orthology assignments from phylogenetic profiles, either due to i) a low specificity
-of the ortholog search or ii) due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the
-orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the
-orthologs were detected in. Optionally, I plan to integrate the conservation of gene order
-on a local scale into the prediction. 
+In this study, a novel approach for assessing the accuracy of the orthology prediction based on neural networks will be devised and implemented. The aim is to identify and eliminate false positive orthology assignments from phylogenetic profiles, either due to i) a low specificity of the ortholog search or ii) due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the orthologs were detected in. Optionally, I plan to integrate the conservation of gene order on a local scale into the prediction. 
 
-1. Generate simulated phylogenetic profiles encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
+1.	Generate simulated phylogenetic profiles using different ortholog prediction tools such as OMA[^22^] (10.1101/gr.243212.118) or fDOG which is an in-house tool, encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
 
-2. Use the evidence from different public databases, such as phylomeDB (Fuentes et al., 2022), pantherDB (Thomas et al., 2022), and OmaDB (Altenhoff et al., 2021) to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
-
-3. The model will generate an output vector with scores assigned to each position, indicating the potential assessment for the orthology prediction.
-
-4. Validate the performance model using multiple datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
-
-5. Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service (Nevers et al., 2022).
-6. The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research.
-
-
-
-
+2.	Use the evidence from different public databases, such as phylomeDB [^23^], pantherDB [^24^], and OmaDB [^25^] to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
+3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology prediction.
+4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
+5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26^]. 6. The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research. 
 
 ## Time Plan
 The master thesis will be done in 6 months approximately, starting from August 2023 to
@@ -47,7 +34,7 @@ January 2024.
 | -------- | ------- |
 | 08.2023 | Studying related literature; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
 | 09.2023 | Collecting and processing data; designing model |
-| 10 - 11.2023 | Training and optimizing model |
+| 10 - 11.2023 | Training and optimizing model | 
 | 12.2024 | Benchmarking the approach; start writing the thesis |
 | 01.2024 | Thesis writing |
 
@@ -74,4 +61,8 @@ January 2024.
 [^19^]:	Lafond, M. et al. (2018) Accurate prediction of orthologs in the presence of divergence after duplication. Bioinformatics, 34, i366–i375. https://doi.org/10.1093/bioinformatics/bty242
 [^20^]:	Gabaldón, T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome Biol., 9, 235. https://doi.org/10.1186/gb-2008-9-10-235
 [^21^]:	Kristensen, D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief. Bioinform., 12, 379–391. https://doi.org/10.1093/bib/bbr030
-
+[^22^]: Altenhoff, A.M. et al. (2019) OMA standalone: orthology inference among public and custom genomes and transcriptomes. Genome Res. 2019. 29: 1152-1163. http://www.genome.org/cgi/doi/10.1101/gr.243212.118.
+[^23^]: Fuentes, D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068. https://doi.org/10.1093/nar/gkab966 
+[^24^]: Thomas, P.D. et al. (2022) PANTHER: Making genome-scale phylogenetics accessible to all. Protein Sci., 31, 8–22.  https://doi.org/10.1002/pro.4218 
+[^25^]: Altenhoff, A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms, ancestral gene order and more. Nucleic Acids Res., 49, D373–D379. https://doi.org/10.1093/nar/gkaa1007 
+[^26^]: Nevers, Y. et al. (2022) The Quest for Orthologs orthology benchmark service in 2022. Nucleic Acids Res., 50, W623–W632. https://doi.org/10.1093/nar/gkac330 
