@@ -22,9 +22,17 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 1.	Generate simulated phylogenetic profiles using different ortholog prediction tools such as OMA[^22^] (10.1101/gr.243212.118) or fDOG which is an in-house tool, encompassing varying degrees of information, ranging from gene families, metabolic pathways to complete gene sets, to train the models.
 
 2.	Use the evidence from different public databases, such as phylomeDB [^23^], pantherDB [^24^], and OmaDB [^25^] to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
+
 3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology prediction.
-4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, among others, across a wide array of species throughout the tree of life.
-5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26^]. 6. The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research. 
+
+4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse, 
+    among others, across a wide array of species throughout the tree of life.
+
+5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26^].
+
+6.	The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization. A     
+     dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this   
+     research. 
 
 ## Time Plan
 The master thesis will be done in 6 months approximately, starting from August 2023 to
@@ -34,9 +42,9 @@ January 2024.
 | -------- | ------- |
 | 08.2023 | Studying related literature; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
 | 09.2023 | Collecting and processing data; designing model |
-| 10 - 11.2023 | Training and optimizing model | 
+| 10 - 11.2023 | Training and optimizing model. First presentation | 
 | 12.2024 | Benchmarking the approach; start writing the thesis |
-| 01.2024 | Thesis writing |
+| 01.2024 | Thesis writing. Final presentation |
 
 ## References
 
