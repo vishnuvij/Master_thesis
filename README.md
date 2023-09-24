@@ -37,15 +37,15 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 ## Tools
 The following tools are required to achieve the output. 
 
-1.fdog [^27]: fDOG - Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
+1.	fdog [^27]: fDOG - Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
 
-2.OMA browser [^25]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
+2.	OMA browser [^25]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
 
-3.Phylo profile [^28]: PhyloProfile is a tool for exploring complex phylogenetic profiles.
+3.	Phylo profile [^28]: PhyloProfile is a tool for exploring complex phylogenetic profiles.
 
-4.Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project are: Tensor flow: [^29], Keras [^30], Numpy [^31], Pytorch [^32]
+4.	Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project 		are: Tensor flow: [^29], Keras [^30], Numpy [^31], Pytorch [^32]
 
-5.Jupyter Noebook [^33]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media. 
+5.	Jupyter Noebook [^33]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, 			visualizations, interactive dashboards and other media. 
 
 
 ## Time Plan
