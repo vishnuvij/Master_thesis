@@ -48,7 +48,7 @@ January 2024.
 
 ## References
 
-[1^]:	Schatz, M.C. (2015) Biological data sciences in genome research. Genome Res., 25, 1417–1422. https://doi.org/10.1101/gr.191684.115
+[^1^]:	Schatz, M.C. (2015) Biological data sciences in genome research. Genome Res., 25, 1417–1422. https://doi.org/10.1101/gr.191684.115
 [^2^]:  Rhie, A. et al. (2021) Towards complete and error-free genome assemblies of all vertebrate species. Nature, 592, 737–746. https://doi.org/10.1038/s41586-021-03451-0
 [^3^]:	Dosch, J. et al. (2023) FAS: assessing the similarity between proteins using multi-layered feature architectures. Bioinformatics, Volume 39. https://doi.org/10.1093/bioinformatics/btad226
 [^4^]:	Thomas Dandekar a b. et al. (1998) Conservation of gene order: a fingerprint of proteins that physically interact. Trends in Biochemical Sciences, 23, 324-328. https://doi.org/10.1016/S0968-0004(98)01274-2 	
