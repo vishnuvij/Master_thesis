@@ -38,7 +38,7 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 
 The following tools are required to achieve the output. 
 
-1.	fdog [^27]: fDOG - Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
+1.	fDOG [^27]: Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
 
 2.	OMA browser [^25]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
 
