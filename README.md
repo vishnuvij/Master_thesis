@@ -96,4 +96,4 @@ January 2024.
 [^31]: Harris, C. R. et al. (2020). Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
 [^32]: Paszke, A. et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32 (pp. 8024–8035). Curran Associates, Inc. Retrieved from http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
 [^33]: Kluyver, T. et al. (2016). Jupyter Notebooks – a publishing format for reproducible computational workflows. In F. Loizides & B. Schmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and Agendas (pp. 87–90).
-34: Vinh Tran (2023). Proposal README. MyThesisProject Repository. https://github.com/vishnuvij/Master_thesis/pull/2/files
+[^34]: Vinh Tran (2023). Proposal README. MyThesisProject Repository. https://github.com/vishnuvij/Master_thesis/pull/2/files
