@@ -23,9 +23,9 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 
 2.	Use the evidence from different public databases, such as phylomeDB [^23], pantherDB [^24], and OmaDB [^25] to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
 
-3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology                 prediction[^34].
+3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology                 prediction [^34].
 
-4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse,     among others, across a wide array of species throughout the tree of life[^34].
+4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse,     among others, across a wide array of species throughout the tree of life [^34].
 
 5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26].
 
