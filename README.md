@@ -45,7 +45,7 @@ The following tools are required to achieve the output.
 
 4.	Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project 		are: Tensor flow: [^29], Keras [^30], Numpy [^31], Pytorch [^32]
 
-5.	Jupyter Noebook [^33]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, 			visualizations, interactive dashboards and other media. 
+5.	Jupyter Noebook [^33]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media. 
 
 
 ## Time Plan
