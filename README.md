@@ -30,7 +30,7 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26].
 
 6.	The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization.
-     A dedicated data server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research.
+     A dedicated server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research
 
 ## Tools
 
