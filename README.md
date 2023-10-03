@@ -15,6 +15,7 @@ It's generally assumed that the orthologous genes perform similar functions [^5]
 
 The research goal is to enhance the accuracy and reliability of orthology prediction, which is a crucial aspect of comparative genomics and evolutionary biology. Accurate orthology assignments are crucial for understanding gene function, evolutionary relationships, and the transfer of biological knowledge between species. In this project, I will investigate whether it is possible to detect and eliminate false positive orthology assignments in phylogenetic profiles through the use of neural networks. This will help researchers avoid misleading interpretations of gene functions and evolutionary histories. 
 
+
 ## Method
 
 In this study, a novel approach for assessing the accuracy of the orthology prediction based on neural networks will be devised and implemented. The aim is to identify and eliminate false positive orthology assignments from phylogenetic profiles, either due to i) a low specificity of the ortholog search or ii) due to contaminating sequences in genome assemblies. As main sources of information, the algorithm will consider, for one seed protein, the presence/absence pattern of orthology assignments across the tree of life, changes in the orthologs’ feature architectures, as well as the evolutionary relationships of the taxa the orthologs were detected in. Optionally, I plan to integrate the conservation of gene order on a local scale into the prediction. 
@@ -34,9 +35,11 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 
 ## Tools
 
+
 The following tools are required to achieve the output. 
 
 1.	fDOG [^27]: Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
+
 
 2.	OMA browser [^25]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
 
@@ -54,10 +57,12 @@ January 2024.
 | Month    | Intended work |
 | -------- | ------- |
 | 08.2023 | Studying related literature; getting familiar with neural networks; preparing working environment (softwares, documentation,...)  |
+
 | 09.2023 | Collecting and processing data; designing model |
 | 10 - 11.2023 | Training and optimizing model. First presentation | 
 | 12.2024 | Benchmarking the approach; start writing the thesis |
 | 01.2024 | Thesis writing. Final presentation |
+
 
 ## References
 
