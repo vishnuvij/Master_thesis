@@ -23,11 +23,11 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 
 2.	Use the evidence from different public databases, such as phylomeDB [^23], pantherDB [^24], and OmaDB [^25] to label the ortholog assessments within these profiles as true positive, false positive, true negative, or false negative. These presence/absence vectors will be complemented with additional information such as protein architecture similarity to serve as input for the neural network model.
 
-3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology                 prediction [^26].
+3.	The model will generate an output vector with scores assigned to each position of an ortholog, indicating the level of certainty for the orthology                 prediction.
 
-4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse,     among others, across a wide array of species throughout the tree of life [^26].
+4.	Validate the performance model using multiple in-house datasets comprising the phylogenetic profiles of diverse model organisms, including human, frog, mouse,     among others, across a wide array of species throughout the tree of life.
 
-5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^27].
+5.	Compare the results of this approach with the assessments provided by the Quest for Ortholog benchmarking service [^26].
 
 6.	The research will predominantly use Python programming language in conjunction with Jupyter Notebook for data analysis, processing, and visualization.
      A dedicated server offered by the Goethe University will serve as the primary repository for the numerous datasets generated and collected during this research
@@ -36,15 +36,15 @@ In this study, a novel approach for assessing the accuracy of the orthology pred
 
 The following tools are required to achieve the output. 
 
-1.	fDOG [^28]: Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
+1.	fDOG [^27]: Feature-aware Directed OrtholoG search fDOG tool is distributed as a python package called fdog. It is compatible with Python ≥ v3.7. 
 
 2.	OMA browser [^25]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
 
-3.	Phylo profile [^29]: PhyloProfile is a tool for exploring complex phylogenetic profiles.
+3.	Phylo profile [^28]: PhyloProfile is a tool for exploring complex phylogenetic profiles.
 
-4.	Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project 		are: Tensor flow: [^30], Keras [^31], Numpy [^32], Pytorch [^33]
+4.	Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project 		are: Tensor flow: [^29], Keras [^30], Numpy [^31], Pytorch [^32]
 
-5.	Jupyter Noebook [^34]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media. 
+5.	Jupyter Noebook [^33]: The Jupyter Notebook is a web-based interactive computing platform that allows users to author data- and code-driven narratives that combine live code, equations, narrative text, visualizations, interactive dashboards and other media. 
 
 
 ## Time Plan
@@ -86,13 +86,12 @@ January 2024.
 [^23]: Fuentes, D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068. https://doi.org/10.1093/nar/gkab966 
 [^24]: Thomas, P.D. et al. (2022) PANTHER: Making genome-scale phylogenetics accessible to all. Protein Sci., 31, 8–22.  https://doi.org/10.1002/pro.4218 
 [^25]: Altenhoff, A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms, ancestral gene order and more. Nucleic Acids Res., 49, D373–D379. https://doi.org/10.1093/nar/gkaa1007 
-[^26]: Vinh Tran (2023). Proposal README. MyThesisProject Repository. https://github.com/vishnuvij/Master_thesis/pull/2/files.
-[^27]: Nevers, Y. et al. (2022) The Quest for Orthologs orthology benchmark service in 2022. Nucleic Acids Res., 50, W623–W632. https://doi.org/10.1093/nar/gkac330 
-[^28]: Ebersberger, I. et al. (2009) HaMStR: Profile hidden markov model based search for orthologs in ESTs. BMC Evol Biol 9, 157, doi:10.1186/1471-2148-9-157
-[^29]: Ngoc-Vinh Tran. et al. (2018) PhyloProfile: dynamic visualization and exploration of multi-layered phylogenetic profiles, Bioinformatics, Volume 34, Issue 17, Pages 3041–3043, https://doi.org/10.1093/bioinformatics/bty225
-[^30]: Abadi, M. et al. (2015). TensorFlow [Software]. Available from https://www.tensorflow.org/
-[^31]: Chollet, F. et al. (2015). Keras. GitHub. Retrieved from https://github.com/fchollet/keras
-[^32]: Harris, C. R. et al. (2020). Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
-[^33]: Paszke, A. et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32 (pp. 8024–8035). Curran Associates, Inc. Retrieved from http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
-[^34]: Kluyver, T. et al. (2016). Jupyter Notebooks – a publishing format for reproducible computational workflows. In F. Loizides & B. Schmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and Agendas (pp. 87–90).
+[^26]: Nevers, Y. et al. (2022) The Quest for Orthologs orthology benchmark service in 2022. Nucleic Acids Res., 50, W623–W632. https://doi.org/10.1093/nar/gkac330 
+[^27]: Ebersberger, I. et al. (2009) HaMStR: Profile hidden markov model based search for orthologs in ESTs. BMC Evol Biol 9, 157, doi:10.1186/1471-2148-9-157
+[^28]: Ngoc-Vinh Tran. et al. (2018) PhyloProfile: dynamic visualization and exploration of multi-layered phylogenetic profiles, Bioinformatics, Volume 34, Issue 17, Pages 3041–3043, https://doi.org/10.1093/bioinformatics/bty225
+[^29]: Abadi, M. et al. (2015). TensorFlow [Software]. Available from https://www.tensorflow.org/
+[^30]: Chollet, F. et al. (2015). Keras. GitHub. Retrieved from https://github.com/fchollet/keras
+[^31]: Harris, C. R. et al. (2020). Array programming with NumPy. Nature, 585, 357–362. https://doi.org/10.1038/s41586-020-2649-2
+[^32]: Paszke, A. et al. (2019). PyTorch: An Imperative Style, High-Performance Deep Learning Library. In Advances in Neural Information Processing Systems 32 (pp. 8024–8035). Curran Associates, Inc. Retrieved from http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf
+[^33]: Kluyver, T. et al. (2016). Jupyter Notebooks – a publishing format for reproducible computational workflows. In F. Loizides & B. Schmidt (Eds.), Positioning and Power in Academic Publishing: Players, Agents and Agendas (pp. 87–90).
  
