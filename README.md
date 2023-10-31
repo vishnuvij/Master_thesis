@@ -40,7 +40,7 @@ The following tools are required to achieve the output.
 
 2.	OMA browser [^26]: The OMA (“Orthologous MAtrix”) project is a method and database for the inference of orthologs among complete genomes. 
 
-3.	Phylo profile [^29]: PhyloProfile is a tool for exploring complex phylogenetic profiles.
+3.	Phylo profile [^29]: PhyloProfile is a tool for exploring complex phylogenetic profiles.This will be healpful in visulising the phylogenetic profiles in an interactice manner.
 
 4.	Python: Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation. The main libraries to be used in this project 		are: Tensor flow: [^30], Keras [^31], Numpy [^32], Pytorch [^33]
 
