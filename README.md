@@ -83,7 +83,7 @@ March 2024.
 [^20]:	Gabaldón, T. (2008) Large-scale assignment of orthology: back to phylogenetics? Genome Biol., 9, 235. https://doi.org/10.1186/gb-2008-9-10-235
 [^21]:	Kristensen, D.M. et al. (2011) Computational methods for Gene Orthology inference. Brief. Bioinform., 12, 379–391. https://doi.org/10.1093/bib/bbr030
 [^22]: Altenhoff, A.M. et al. (2019) OMA standalone: orthology inference among public and custom genomes and transcriptomes. Genome Res. 2019. 29: 1152-1163. http://www.genome.org/cgi/doi/10.1101/gr.243212.118.
-[^22]: Freya Arthen , https://github.com/BIONF/taXaminer
+[^23]: Freya Arthen , https://github.com/BIONF/taXaminer
 [^24]: Fuentes, D. et al. (2022) PhylomeDB V5: an expanding repository for genome-wide catalogues of annotated gene phylogenies. Nucleic Acids Res., 50, D1062–D1068. https://doi.org/10.1093/nar/gkab966 
 [^25]: Thomas, P.D. et al. (2022) PANTHER: Making genome-scale phylogenetics accessible to all. Protein Sci., 31, 8–22.  https://doi.org/10.1002/pro.4218 
 [^26]: Altenhoff, A.M. et al. (2021) OMA orthology in 2021: website overhaul, conserved isoforms, ancestral gene order and more. Nucleic Acids Res., 49, D373–D379. https://doi.org/10.1093/nar/gkaa1007 
